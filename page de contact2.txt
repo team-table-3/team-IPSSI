@@ -22,7 +22,7 @@ Un produit<br />
     <option value="<?php echo $vartauxtva2; ?>"><?php echo $vartauxtva2; ?>%</option>
 </select>    
 
-<select name="fournisseur">
+<select name="fourniseur">
 <?php
 include('connect.php');
 
