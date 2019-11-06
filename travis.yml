@@ -1,5 +1,11 @@
 langage : php 
 branche: master 
-slack: https://asisqy.slack.com/apps/new/A0F81FP4N-travis-ci
+
 script: 
   - echo "HELLO WORLD"
+notification:
+  slack:
+    rooms:
+      - https://asisqy.slack.com/apps/new/A0F81FP4N-travis-ci
+    on_success: change 
+    on_failure: always
