@@ -4,6 +4,7 @@ Un produit<br />
 <?php include('connect.php'); ?>
 <form name="insertion" action="index.php?page=insertion2&type=produit" method="POST" onSubmit="return check();">
   <table border="0" align="center" >
+  <h2>Modification</h2>
   
     <tr align="center">
       <td>Produit:</td>
