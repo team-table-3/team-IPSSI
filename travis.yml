@@ -1,4 +1,5 @@
 langage : php 
 branche: master 
-slack: https://app.slack.com/client/TQ3AM98SJ/CQ5NQ61JL
-builder: "HELLO WORLD"
+slack: https://asisqy.slack.com/apps/new/A0F81FP4N-travis-ci
+script: 
+  - echo "HELLO WORLD"
